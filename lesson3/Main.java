@@ -41,6 +41,21 @@ public class Main {
 
         System.out.println();
 
+        String s = "Ave Maria - лампада тиха " +
+                "в сердце готовы четыре стиха " +
+                "чистая дева скорбящего мать " +
+                "в душу проникла твоя благодать " +
+                "неба царица не в блеске лучей " +
+                "в тихом предстань сновидении ей " +
+                "Ave Maria - лампада тиха " +
+                "я прошептал все четыре стиха";
+
+        String[] temp = s.split(" ");
+        System.out.println(words(temp));
+        System.out.println(counterWords(temp));
+
+        System.out.println();
+
         Phonebook book = new Phonebook();
 
         book.addToMap("Loki", "89563325674", "loki_pretty_boy@gmail.com");
